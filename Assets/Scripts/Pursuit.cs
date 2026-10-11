@@ -3,8 +3,8 @@ using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class Pursuit : Steering
 {
-    public Steering target;      // arrastrar aquí al Agente 5
-    public float maxPrediction = 2f;    // límite de segundos hacia el futuro
+    public Steering target;      
+    public float maxPrediction = 2f;   
 
     protected override Vector3 GetSteering()
     {
